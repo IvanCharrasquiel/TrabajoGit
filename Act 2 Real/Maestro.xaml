@@ -6,7 +6,10 @@
     <ScrollView>
 
         <VerticalStackLayout>
-        
+            <Button Text="Programacion"
+                    Clicked="Programacion_Clicked">
+                
+            </Button>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

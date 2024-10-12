@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Act_2_Real.Pages;
 using Microsoft.Maui.Controls;
 
 namespace Act_2_Real
@@ -12,17 +13,21 @@ namespace Act_2_Real
             InitializeComponent();
         }
 
-        public void NavigationToPage(ContentPage nuevaPagina)
+        public static void NavigationToPage(ContentPage nuevaPagina)
         {
             App.FlyoutPage.Detail.Navigation.PushAsync(nuevaPagina);
         }
 
         
-        public void OcultarDetalles()
+        public static void OcultarDetalles()
         {
             App.FlyoutPage.IsPresented = false;
         }
 
-       
+        private void Programacion_Clicked(object sender, EventArgs e)
+        {
+            NavigationToPage(new ProgramacionPage());
+            OcultarDetalles();
+        }
     }
 }
