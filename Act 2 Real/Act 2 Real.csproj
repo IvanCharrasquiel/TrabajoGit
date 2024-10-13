@@ -43,6 +43,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="Pages\Cafe.xaml.cs">
+	    <DependentUpon>Cafe.xaml</DependentUpon>
+	  </Compile>
 	  <Compile Update="Pages\Paises.xaml.cs">
 	    <DependentUpon>Paises.xaml</DependentUpon>
 	  </Compile>
@@ -109,6 +112,10 @@
 		<MauiXaml Update="ObjetosPage.xaml">
 			<Generator>MSBuild:Compile</Generator>
 		</MauiXaml>
+		<MauiXaml Update="Pages\Cafe.xaml">
+		  <Generator>MSBuild:Compile</Generator>
+		</MauiXaml>
+		
 		<MauiXaml Update="Pages\ProgramacionPage.xaml">
 			<Generator>MSBuild:Compile</Generator>
 		</MauiXaml>

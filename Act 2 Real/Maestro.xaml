@@ -8,12 +8,18 @@
 
         <VerticalStackLayout>
             <Button Text="Programacion"
-                    Clicked="Programacion_Clicked">
+                    Clicked="Programacion_Clicked"
+                    Margin="20,10">
             </Button>
 
             <Button Text="Dato curioso 2"
              Clicked="GoToPaisesPage"
              Margin="20,10"/>
+
+            <Button Text="Datos curiosos cafe"
+             Clicked="GoToCafePage"
+             Margin="20,10"
+                />
 
         </VerticalStackLayout>
     </ScrollView>

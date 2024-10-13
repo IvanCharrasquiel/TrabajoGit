@@ -40,6 +40,15 @@ namespace Act_2_Real
             OcultarDetalles();
         }
 
+        private void GoToCafePage(object sender, EventArgs e)
+        {
+
+            NavigationToPage(new Cafe());
+
+            OcultarDetalles();
+        }
+
+
 
     }
 }
