@@ -6,7 +6,9 @@
              Title="Maestro">
     <ScrollView>
 
-        <VerticalStackLayout>
+        <VerticalStackLayout >
+            <Label Text="CURISIODADES"/>
+            <Image Source="jorge.png"/>
             <Button Text="Programacion"
                     Clicked="Programacion_Clicked"
                     Margin="20,10">
