@@ -1,7 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Act_2_Real.Pages;
+using Java.Lang;
 using Microsoft.Maui.Controls;
+
 
 namespace Act_2_Real
 {
@@ -23,6 +26,16 @@ namespace Act_2_Real
             App.FlyoutPage.IsPresented = false;
         }
 
-       
+    
+
+        private void GoToPaisesPage(object sender, EventArgs e)
+        {
+            
+            NavigationToPage(new Paises());
+
+            OcultarDetalles();
+        }
+
+
     }
 }
