@@ -1,5 +1,4 @@
 ﻿using Microsoft.Extensions.Logging;
-using CommunityToolkit.Maui; // Agrega esta línea
 
 namespace Act_2_Real
 {
@@ -10,7 +9,6 @@ namespace Act_2_Real
             var builder = MauiApp.CreateBuilder();
             builder
                 .UseMauiApp<App>()
-                .UseMauiCommunityToolkit()
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
