@@ -48,6 +48,13 @@ namespace Act_2_Real
             OcultarDetalles();
         }
 
+        private void GoToFutbolPage(object sender, EventArgs e)
+        {
+
+            NavigationToPage(new Futbol());
+
+            OcultarDetalles();
+        }
 
 
     }

@@ -21,6 +21,11 @@
              Margin="20,10"
                 />
 
+            <Button Text="Datos curiosos futbol"
+             Clicked="GoToFutbolPage"
+             Margin="20,10"
+                />
+
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
