@@ -4,6 +4,7 @@ using System.Linq;
 using Act_2_Real.Pages;
 using Microsoft.Maui.Controls;
 
+
 namespace Act_2_Real
 {
     public partial class Maestro : ContentPage
@@ -29,5 +30,16 @@ namespace Act_2_Real
             NavigationToPage(new ProgramacionPage());
             OcultarDetalles();
         }
+    
+
+        private void GoToPaisesPage(object sender, EventArgs e)
+        {
+            
+            NavigationToPage(new Paises());
+
+            OcultarDetalles();
+        }
+
+
     }
 }
